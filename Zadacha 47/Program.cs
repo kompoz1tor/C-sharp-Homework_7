@@ -22,7 +22,8 @@ void FilLArray(double[,] A)
     {
         for(int j = 0; j < columns; j++)
         {
-            array[i,j] = random.Next(1,20) * Math.Round(random.NextDouble(), 1);
+            array[i,j] =  Math.Round(random.Next(1,20) * random.NextDouble(), 1);
+            //array[i,j] = random.Next(1,20) * Math.Round(random.NextDouble(), 1);
         }
     }
 }

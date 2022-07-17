@@ -55,4 +55,4 @@ void SearchElement(int[,] A, int indexRow, int indexColumn)
     else Console.WriteLine("Такого числа в массиве нет");
 }
 
-// Задайте массив. Найти сумму эл-ов, с индексами (0,0)(1,1) и т.д
+
